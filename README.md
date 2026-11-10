@@ -11,8 +11,8 @@ real. Documentación de la API navegable con Swagger UI.
 ## Tecnologías
 
 - **Python 3** · **Flask** — API REST
-- **TinyDB** — persistencia
-- **Swagger UI** — documentación de endpoints (`/docs`)
+- **SQLAlchemy** sobre **SQLite** — persistencia (`app/patentes.db`)
+- **Flask-RESTX** + **Swagger UI** — documentación de endpoints (`/docs`)
 - Arquitectura en capas por módulo: `controllers` / `models` / `repositories` / `services`
 - Carga dinámica de controladores y registro dinámico de *namespaces*
 - Frontend responsive en HTML / CSS / JavaScript
